@@ -1,0 +1,40 @@
+# Ignorar carpetas y configuraciones de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Ignorar logs y archivos temporales de PHP
+error_log
+*.log
+*.cache
+*.bak
+*.tmp
+*.swp
+
+# Ignorar directorios comunes de desarrollo en PHP
+/vendor/               # Directorio de dependencias de Composer
+/node_modules/         # Si se usa npm o yarn
+/public/storage        # Symlink de Laravel
+/storage/*.key         # Claves privadas
+/storage/logs/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Ignorar configuraciones sensibles
+.env                   # Archivo de variables de entorno
+.env.*                 # Otros entornos, como .env.production
+
+# Ignorar bases de datos locales
+*.sqlite
+*.db
+
+# Ignorar archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Ignorar directorios y archivos generados por el servidor
+.idea/                 # Configuración de PHPStorm/IntelliJ
+*.lock                 # Archivos de bloqueo de dependencias
+*.phar                 # Archivos ejecutables empaquetados de PHP
+.phpunit.result.cache  # Cache de PHPUnit
+coverage/              # Informes de cobertura de pruebas
