@@ -1,4 +1,3 @@
-php -S localhost:8000 
 # PHP Examples Repository
 
 This repository contains a collection of PHP examples to demonstrate various concepts and functionalities in PHP. It is designed to help developers understand and implement core and advanced features of PHP through practical examples.
