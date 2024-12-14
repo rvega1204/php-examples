@@ -60,7 +60,7 @@ The repository includes the following examples:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/php-examples.git
+   https://github.com/rvega1204/php-examples.git
 
 2. Run the PHP files using:
     ```bash
